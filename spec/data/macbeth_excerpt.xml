@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<!DOCTYPE PLAY SYSTEM "play.dtd">
+
+<PLAY>
+<TITLE>The Tragedy of Macbeth</TITLE>
+
+<FM>
+<P>Text placed in the public domain by Moby Lexical Tools, 1992.</P>
+<P>SGML markup by Jon Bosak, 1992-1994.</P>
+<P>XML version by Jon Bosak, 1996-1998.</P>
+<P>This work may be freely copied and distributed worldwide.</P>
+</FM>
+
+
+<PERSONAE>
+<TITLE>Dramatis Personae</TITLE>
+
+<PERSONA>DUNCAN, king of Scotland.</PERSONA>
+
+<PGROUP>
+<PERSONA>MALCOLM</PERSONA>
+<PERSONA>DONALBAIN</PERSONA>
+<GRPDESCR>his sons.</GRPDESCR>
+</PGROUP>
+
+
+<PGROUP>
+<PERSONA>MACBETH</PERSONA>
+<PERSONA>BANQUO</PERSONA>
+<GRPDESCR>generals of the king's army.</GRPDESCR>
+</PGROUP>
+
+
+<PGROUP>
+<PERSONA>MACDUFF</PERSONA>
+<PERSONA>LENNOX</PERSONA>
+<PERSONA>ROSS</PERSONA>
+<PERSONA>MENTEITH</PERSONA>
+<PERSONA>ANGUS</PERSONA>
+<PERSONA>CAITHNESS</PERSONA>
+<GRPDESCR>noblemen of Scotland.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>FLEANCE, son to Banquo.</PERSONA>
+<PERSONA>SIWARD, Earl of Northumberland, general of the English forces.</PERSONA>
+<PERSONA>YOUNG SIWARD, his son.</PERSONA>
+<PERSONA>SEYTON, an officer attending on Macbeth.</PERSONA>
+<PERSONA>Boy, son to Macduff. </PERSONA>
+<PERSONA>An English Doctor. </PERSONA>
+<PERSONA>A Scotch Doctor. </PERSONA>
+<PERSONA>A Soldier.</PERSONA>
+<PERSONA>A Porter.</PERSONA>
+<PERSONA>An Old Man.</PERSONA>
+<PERSONA>LADY MACBETH</PERSONA>
+<PERSONA>LADY MACDUFF</PERSONA>
+<PERSONA>Gentlewoman attending on Lady Macbeth. </PERSONA>
+<PERSONA>HECATE</PERSONA>
+<PERSONA>Three Witches.</PERSONA>
+<PERSONA>Apparitions.</PERSONA>
+<PERSONA>Lords, Gentlemen, Officers, Soldiers, Murderers, Attendants, and Messengers. </PERSONA>
+</PERSONAE>
+
+<SCNDESCR>SCENE  Scotland: England.</SCNDESCR>
+
+<PLAYSUBT>MACBETH</PLAYSUBT>
+
+<ACT><TITLE>ACT I</TITLE>
+
+<SCENE><TITLE>SCENE I.  A desert place.</TITLE>
+<STAGEDIR>Thunder and lightning. Enter three Witches</STAGEDIR>
+
+<SPEECH>
+<SPEAKER>First Witch</SPEAKER>
+<LINE>When shall we three meet again</LINE>
+<LINE>In thunder, lightning, or in rain?</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Second Witch</SPEAKER>
+<LINE>When the hurlyburly's done,</LINE>
+<LINE>When the battle's lost and won.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Third Witch</SPEAKER>
+<LINE>That will be ere the set of sun.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>First Witch</SPEAKER>
+<LINE>Where the place?</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Second Witch</SPEAKER>
+<LINE>Upon the heath.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Third Witch</SPEAKER>
+<LINE>There to meet with Macbeth.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>First Witch</SPEAKER>
+<LINE>I come, Graymalkin!</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Second Witch</SPEAKER>
+<LINE>Paddock calls.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Third Witch</SPEAKER>
+<LINE>Anon.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>ALL</SPEAKER>
+<LINE>Fair is foul, and foul is fair:</LINE>
+<LINE>Hover through the fog and filthy air.</LINE>
+</SPEECH>
+
+
+<STAGEDIR>Exeunt</STAGEDIR>
+</SCENE>
+
+<SCENE><TITLE>SCENE I.  A cavern. In the middle, a boiling cauldron.</TITLE>
+<STAGEDIR>Thunder. Enter the three Witches</STAGEDIR>
+
+<SPEECH>
+<SPEAKER>MACDUFF</SPEAKER>
+<LINE>He has no children. All my pretty ones?</LINE>
+<LINE>Did you say all? O hell-kite! All?</LINE>
+<LINE>What, all my pretty chickens and their dam</LINE>
+<LINE>At one fell swoop?</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MALCOLM</SPEAKER>
+<LINE>Dispute it like a man.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MACDUFF</SPEAKER>
+<LINE>I shall do so;</LINE>
+<LINE>But I must also feel it as a man:</LINE>
+<LINE>I cannot but remember such things were,</LINE>
+<LINE>That were most precious to me. Did heaven look on,</LINE>
+<LINE>And would not take their part? Sinful Macduff,</LINE>
+<LINE>They were all struck for thee! naught that I am,</LINE>
+<LINE>Not for their own demerits, but for mine,</LINE>
+<LINE>Fell slaughter on their souls. Heaven rest them now!</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MALCOLM</SPEAKER>
+<LINE>Be this the whetstone of your sword: let grief</LINE>
+<LINE>Convert to anger; blunt not the heart, enrage it.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MACDUFF</SPEAKER>
+<LINE>O, I could play the woman with mine eyes</LINE>
+<LINE>And braggart with my tongue! But, gentle heavens,</LINE>
+<LINE>Cut short all intermission; front to front</LINE>
+<LINE>Bring thou this fiend of Scotland and myself;</LINE>
+<LINE>Within my sword's length set him; if he 'scape,</LINE>
+<LINE>Heaven forgive him too!</LINE>
+</SPEECH>
+
+<STAGEDIR>Exeunt</STAGEDIR>
+</SCENE>
+
+</ACT>
+
+<ACT><TITLE>ACT V</TITLE>
+
+<SCENE><TITLE>SCENE I.  Dunsinane. Ante-room in the castle.</TITLE>
+<STAGEDIR>Enter a Doctor of Physic and a Waiting-Gentlewoman</STAGEDIR>
+
+<SPEECH>
+<SPEAKER>Doctor</SPEAKER>
+<LINE>I have two nights watched with you, but can perceive</LINE>
+<LINE>no truth in your report. When was it she last walked?</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Gentlewoman</SPEAKER>
+<LINE>Since his majesty went into the field, I have seen</LINE>
+<LINE>her rise from her bed, throw her night-gown upon</LINE>
+<LINE>her, unlock her closet, take forth paper, fold it,</LINE>
+<LINE>write upon't, read it, afterwards seal it, and again</LINE>
+<LINE>return to bed; yet all this while in a most fast sleep.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Doctor</SPEAKER>
+<LINE>A great perturbation in nature, to receive at once</LINE>
+<LINE>the benefit of sleep, and do the effects of</LINE>
+<LINE>watching! In this slumbery agitation, besides her</LINE>
+<LINE>walking and other actual performances, what, at any</LINE>
+<LINE>time, have you heard her say?</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Gentlewoman</SPEAKER>
+<LINE>That, sir, which I will not report after her.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>Gentlewoman</SPEAKER>
+<LINE>Good night, good doctor.</LINE>
+</SPEECH>
+
+<STAGEDIR>Exeunt</STAGEDIR>
+</SCENE>
+</PLAY>
