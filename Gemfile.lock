@@ -1,3 +1,10 @@
+PATH
+  remote: .
+  specs:
+    random_shakespeare (0.1.0)
+      activesupport (= 4.2.6)
+      nokogiri (= 1.6.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,7 +15,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    byebug (8.2.4)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
@@ -17,8 +23,9 @@ GEM
     json (1.8.3)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    nokogiri (1.6.7.2)
+    nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
+    rake (10.5.0)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -45,11 +52,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
-  byebug
-  nokogiri
-  rspec
-  webmock
+  bundler (~> 1.11)
+  rake (~> 10.0)
+  random_shakespeare!
+  rspec (~> 3.0)
+  webmock (= 1.24.5)
 
 BUNDLED WITH
    1.11.2

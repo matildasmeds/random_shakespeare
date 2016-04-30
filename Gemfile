@@ -1,10 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'rspec'
-gem 'nokogiri'
-gem 'activesupport'
-
-group :development, :test do
-  gem 'webmock' # stubs and mocks requests to external services
-  gem 'byebug'
-end
+# Specify your gem's dependencies in random_shakespeare.gemspec
+gemspec
