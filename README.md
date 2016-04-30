@@ -1,8 +1,8 @@
-# RandomShakespeare
+# *"They are, my lord, without the palace gate."*
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/random_shakespeare`. To experiment with that code, run `bin/console` for an interactive prompt.
+## About
 
-TODO: Delete this and the text above, and describe your gem
+RandomShakespeare gives you absolutely random quotes from Macbeth.
 
 ## Installation
 
@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'random_shakespeare'
+random_shakespeare #=> "Hey, it's a random quote!"
+```
+
+Note that for the first run, you need internet access to download [Macbeth xml file](https://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml).
+
+## About
+
+I wrote this for practice, I realize it's rather useless. I am happy with the test suite though. Feedback is welcome, as always.
 
 ## Development
 
@@ -32,8 +41,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/random_shakespeare.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/matildasmeds/random_shakespeare.
 
 ## License
 
