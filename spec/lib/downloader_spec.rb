@@ -3,17 +3,15 @@ require 'uri'
 RSpec.describe RandomShakespeare::Downloader, type: :model do
   FILENAME = '/tmp/downloader_spec.out'
 
-  describe '.url' do
+  describe '::URL' do
     specify do
-      uri = URI(RandomShakespeare::Downloader.url)
-      expect(uri).to be_kind_of(URI::HTTP)
+      expect(URI(RandomShakespeare::Downloader::URL)).to be_kind_of(URI::HTTP)
     end
   end
 
-  describe '.filename' do
+  describe '::FILENAME' do
     specify do
-      filename = RandomShakespeare::Downloader.filename
-      expect(filename).to be_kind_of(String)
+      expect(RandomShakespeare::Downloader::FILENAME).to be_kind_of(String)
     end
   end
 
@@ -46,6 +44,6 @@ RSpec.describe RandomShakespeare::Downloader, type: :model do
   end
 
   def have_downloaded(times)
-    have_requested(:get, RandomShakespeare::Downloader.url).send(times)
+    have_requested(:get, RandomShakespeare::Downloader::URL).send(times)
   end
 end

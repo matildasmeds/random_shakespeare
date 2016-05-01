@@ -14,14 +14,6 @@ module RandomShakespeare
       open_file
     end
 
-    def self.url
-      URL
-    end
-
-    def self.filename
-      @filename || FILENAME
-    end
-
     private
 
     def download

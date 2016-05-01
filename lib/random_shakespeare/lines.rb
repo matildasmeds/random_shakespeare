@@ -3,7 +3,7 @@ require_relative 'downloader.rb'
 module RandomShakespeare
   class Lines
     def initialize(parser = nil)
-      @parser = parser || Parser.new(Downloader.filename)
+      @parser = parser || Parser.new(Downloader::FILENAME)
       load_lines!
     end
 

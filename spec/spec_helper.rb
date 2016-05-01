@@ -7,7 +7,7 @@ WebMock.disable_net_connect!(allow_localhost: true)
 
 RSpec.configure do |config|
   config.before(:each) do
-    stub_request(:get, RandomShakespeare::Downloader.url).
+    stub_request(:get, RandomShakespeare::Downloader::URL).
       with(headers: {'Accept'=>'*/*', 'User-Agent'=>'Ruby'}).
       to_return(status: 200, body: '<XML></XML>', headers: {})
   end
